@@ -12,8 +12,8 @@ mv baxter.0.03.subsample.shared baxter.subsample.shared
 ### `baxter.braycurtis.dist`
 
 ```bash
-mothur "#dist.shared(shared=baxter.shared, calc=braycurtis)"
-mv baxter.braycurtis.0.03.lt.dist baxter.braycurtis.dist
+mothur "#dist.shared(shared=baxter.shared, calc=braycurtis, output=square)"
+mv baxter.braycurtis.0.03.square.dist baxter.braycurtis.dist
 ```
 
 ### `baxter.groups.ave-std.summary`
@@ -94,8 +94,8 @@ mv schubert.0.03.subsample.shared schubert.subsample.shared
 ### `schubert.braycurtis.dist`
 
 ```bash
-mothur "#dist.shared(shared=schubert.shared, calc=braycurtis)"
-mv schubert.braycurtis.0.03.lt.dist schubert.braycurtis.dist
+mothur "#dist.shared(shared=schubert.shared, calc=braycurtis, output=square)"
+mv schubert.braycurtis.0.03.square.dist schubert.braycurtis.dist
 ```
 
 ### `schubert.groups.ave-std.summary`
